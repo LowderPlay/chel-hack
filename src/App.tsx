@@ -32,7 +32,7 @@ export default function App() {
                     },
                 }).then((res) => res.json());
             },
-        onSuccess: (data) => setRole(data?.user.role),
+        onSuccess: (data: any) => setRole(data?.user.role),
     });
 
     useEffect(() => {
