@@ -9,7 +9,7 @@ export function fn(route: string, token?: string, body?: any, method: "POST" | "
     }).then((res) => res.json());
 }
 
-export const API_URL = "http://10.68.44.26:8080/api";
+export const API_URL = import.meta.env.VITE_API_URL;
 export const ME = "/me";
 export const DELIVERY_STATUS = "/status"
 export const WAITING_TRUCKS = "/storekeeper/waiting"
