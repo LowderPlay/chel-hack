@@ -39,7 +39,7 @@ const ShipsTab: FunctionComponent<ShipsTabProps> = (props) => {
         {
             mutationFn: ({ id, type }: { id: string; type: "checkpoint" | "reject" }) =>
                 fn(SECURITY + type, props.token, { id }),
-            onSuccess: (data) => {
+            onSuccess: () => {
                 // setTimeout(() => {
                 //     queryClient.invalidateQueries({
                 //         queryKey: ["delivery"],

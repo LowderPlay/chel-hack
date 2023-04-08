@@ -21,7 +21,7 @@ const StorekeeperApp: FunctionComponent<StorekeeperAppProps> = (props) => {
             id: String;
             storage: "SOUTH" | "NORTH";
         }) => fn(ACCEPT, props.token, { id, storage }),
-        onSuccess: (data) => {
+        onSuccess: () => {
             queryClient.invalidateQueries({ queryKey: ["waitingTrucks"] });
         },
     });
