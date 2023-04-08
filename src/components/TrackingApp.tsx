@@ -5,12 +5,12 @@ import ugmc_logo from "../assets/ugmc_logo.svg";
 import zinc_logo from "../assets/zinc_logo.svg";
 import { useQuery } from "react-query";
 import { DELIVERY_STATUS, fn } from "../Contraints";
-import scheduled from "../assets/Hack_Chelabisk/SCHEDULED.svg";
-import arrived from "../assets/Hack_Chelabisk/ARRIVED.svg";
-import checkpoint from "../assets/Hack_Chelabisk/CHECKPOINT.svg";
-import waiting from "../assets/Hack_Chelabisk/WAITING.svg";
-import loading_north from "../assets/Hack_Chelabisk/LOADING_NORTH.svg";
-import loading_south from "../assets/Hack_Chelabisk/LOADING_SOUTH.svg";
+import scheduled from "../assets/StateImg/SCHEDULED.svg";
+import arrived from "../assets/StateImg/ARRIVED.svg";
+import checkpoint from "../assets/StateImg/CHECKPOINT.svg";
+import waiting from "../assets/StateImg/WAITING.svg";
+import loading_north from "../assets/StateImg/LOADING_NORTH.svg";
+import loading_south from "../assets/StateImg/LOADING_SOUTH.svg";
 enum DeliveryState {
     SCHEDULED = "SCHEDULED",
     ARRIVED = "ARRIVED",
