@@ -36,7 +36,7 @@ const TrackingApp: FunctionComponent = () => {
             pic = scheduled;
             break;
         case DeliveryState.ARRIVED:
-            state = "Ожидайте очередь";
+            state = "Ожидайте очереди";
             pic = arrived
             break;
         case DeliveryState.CHECKPOINT:
