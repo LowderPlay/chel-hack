@@ -23,12 +23,11 @@ export default function App() {
         enabled: false,
         queryFn: () =>
             {
-                // if (token && role) return;
                 return fetch(API_URL + ME, {
                     method: "GET",
                     headers: {
                         "Content-Type": "application/json",
-                        Authorization: "Bearer " + token,
+                        "Authorization": "Bearer " + token,
                     },
                 }).then((res) => res.json());
             },
