@@ -36,7 +36,7 @@ export default function App() {
 
     useEffect(() => {
         refetch();
-    })
+    }, [token])
 
     if (!token) {
         return (
