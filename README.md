@@ -9,6 +9,8 @@ $ npm install
 
 2. Изменение переменных среды
 
+Переименуйте .env.example в .env и измените его:
+
 ```dosini
 VITE_API_URL=ENTER_API_URL_HERE
 ```
